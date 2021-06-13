@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A3A6AC6D2675E1CB00366D9A /* Tip_it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tip_it.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A6AC6D2675E1CB00366D9A /* Tip_Inclinar .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip_Inclinar .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A6AC702675E1CB00366D9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3A6AC722675E1CB00366D9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A3A6AC742675E1CB00366D9A /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		A3A6AC642675E1CB00366D9A = {
 			isa = PBXGroup;
 			children = (
-				A3A6AC6F2675E1CB00366D9A /* Tip_It */,
+				A3A6AC6F2675E1CB00366D9A /* Tip_Inclinar */,
 				A3A6AC6E2675E1CB00366D9A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		A3A6AC6E2675E1CB00366D9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3A6AC6D2675E1CB00366D9A /* Tip_it.app */,
+				A3A6AC6D2675E1CB00366D9A /* Tip_Inclinar .app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A3A6AC6F2675E1CB00366D9A /* Tip_It */ = {
+		A3A6AC6F2675E1CB00366D9A /* Tip_Inclinar */ = {
 			isa = PBXGroup;
 			children = (
 				A3A6AC702675E1CB00366D9A /* AppDelegate.swift */,
@@ -66,7 +66,7 @@
 				A3A6AC7B2675E1CD00366D9A /* LaunchScreen.storyboard */,
 				A3A6AC7E2675E1CD00366D9A /* Info.plist */,
 			);
-			path = Tip_It;
+			path = Tip_Inclinar;
 			sourceTree = "<group>";
 		};
 		A3A6AC842675E4C400366D9A /* Controller */ = {
@@ -81,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A3A6AC6C2675E1CB00366D9A /* Tip_it */ = {
+		A3A6AC6C2675E1CB00366D9A /* Tip_Inclinar  */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3A6AC812675E1CD00366D9A /* Build configuration list for PBXNativeTarget "Tip_it" */;
+			buildConfigurationList = A3A6AC812675E1CD00366D9A /* Build configuration list for PBXNativeTarget "Tip_Inclinar " */;
 			buildPhases = (
 				A3A6AC692675E1CB00366D9A /* Sources */,
 				A3A6AC6A2675E1CB00366D9A /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = Tip_it;
+			name = "Tip_Inclinar ";
 			productName = Tip_it;
-			productReference = A3A6AC6D2675E1CB00366D9A /* Tip_it.app */;
+			productReference = A3A6AC6D2675E1CB00366D9A /* Tip_Inclinar .app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A3A6AC682675E1CB00366D9A /* Build configuration list for PBXProject "Tip_it" */;
+			buildConfigurationList = A3A6AC682675E1CB00366D9A /* Build configuration list for PBXProject "Tip_Inclinar " */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A3A6AC6C2675E1CB00366D9A /* Tip_it */,
+				A3A6AC6C2675E1CB00366D9A /* Tip_Inclinar  */,
 			);
 		};
 /* End PBXProject section */
@@ -299,13 +299,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7NZEBAYB47;
 				INFOPLIST_FILE = Tip_it/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.puneettokhi.Tip-it";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.puneettokhi.Tip-Inclinar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,13 +320,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7NZEBAYB47;
 				INFOPLIST_FILE = Tip_it/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.puneettokhi.Tip-it";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.puneettokhi.Tip-Inclinar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A3A6AC682675E1CB00366D9A /* Build configuration list for PBXProject "Tip_it" */ = {
+		A3A6AC682675E1CB00366D9A /* Build configuration list for PBXProject "Tip_Inclinar " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3A6AC7F2675E1CD00366D9A /* Debug */,
@@ -343,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3A6AC812675E1CD00366D9A /* Build configuration list for PBXNativeTarget "Tip_it" */ = {
+		A3A6AC812675E1CD00366D9A /* Build configuration list for PBXNativeTarget "Tip_Inclinar " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3A6AC822675E1CD00366D9A /* Debug */,
