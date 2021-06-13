@@ -17,10 +17,9 @@ class ResultsViewController: UIViewController {
     @IBOutlet weak var settingsLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         totalLabel.text = "$\(total)"
         settingsLabel.text = "Split between \(people) people, with \(tipAmount)% tip."
-        
     }
     
     @IBAction func recalculatePressed(_ sender: UIButton) {
