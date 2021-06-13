@@ -46,6 +46,14 @@ class CalculatorViewController: UIViewController {
     
     
     @IBAction func calculatePressed(_ sender: UIButton) {
+        // default tip value selected is 10%
+        if tip == 0.0{
+            tip = 0.10
+        }
+        // default stepper value is 2
+        if numberOfPeople == 0{
+            numberOfPeople = 2
+        }
         let billAmount = billTextField.text!
         if billAmount != ""{
             totalBill = Double(billAmount)!

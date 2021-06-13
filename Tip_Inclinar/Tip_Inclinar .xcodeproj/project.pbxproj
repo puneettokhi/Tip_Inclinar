@@ -301,7 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7NZEBAYB47;
-				INFOPLIST_FILE = Tip_it/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tip_Inclinar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7NZEBAYB47;
-				INFOPLIST_FILE = Tip_it/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tip_Inclinar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
