@@ -29,7 +29,6 @@ class CalculatorViewController: UIViewController {
         fivePercentButton.isSelected = false
         tenPercentButton.isSelected = false
         twentyPercentButton.isSelected = false
-        
         sender.isSelected = true
         
         let tipSelected = sender.currentTitle!
