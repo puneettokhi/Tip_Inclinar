@@ -43,6 +43,7 @@ class CalculatorViewController: UIViewController {
         splitNumberLabel.text = String(numberOfPeople)
     }
     
+    
     @IBAction func calculatePressed(_ sender: UIButton) {
         // default tip value selected is 10%
         if tip == 0.0{
